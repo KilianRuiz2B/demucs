@@ -1,0 +1,8 @@
+cd desktop
+
+cd demucs-main
+
+conda env update -f environment-cpu.yml
+
+conda activate demucs
+python.exe -m demucs.separate (Arrastrar archivo)
